@@ -138,6 +138,7 @@ table {
 .invoice-container table tr.item td{
   padding-bottom: 15px;
   border-bottom: 1.5px solid #eee;  
+
 }
 
 .invoice-container table tr.item.last td {
@@ -147,7 +148,7 @@ table {
 .invoice-container table tr.item input {
   padding-left: 4.5px;
   width: 75px;
-  height: 1px;
+  height: 33px;
 }
 
 .invoice-container table tr.item td:first-child input {
@@ -197,8 +198,3 @@ rgb(255, 192, 153);
       text-align: center;
   }
   }
-
-
-
-
-
