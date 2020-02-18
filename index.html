@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Juno Invoice System</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+  <!-- Font: Montserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Font: Cormorant Garamond -->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="invoice-container">
+
+    <img class="logo" src="img/juno-logo.png" alt="juno Image">
+
+    <div class="invoice-date">
+      <p>Invoice Date: &nbsp&nbsp02/10/2020<br></p>
+      <p>Invoice #: &nbsp&nbsp000235<br></p>
+    </div>
+
+    <div class="juno-address">
+      <p><span class="boldme">Juno College of Technology</span><br></p>
+      <p>483 Queen St. W 3rd floor<br></p>
+      <p>Toronto, ON, M5V 2A9<br></p>
+      <p>(416) 546-8954</p>
+    </div>
+
+    <hr>
+
+    <div class="customer-info">
+      <p><span class="boldme">Customer Name</span><br></p>
+      <p>Micheal Johnson</span><br></p>
+      <p>(647) 846-2254</p>
+    </div>
+
+    <div class="customer-address">
+      <p><span class="boldme">Customer Address</span><br></p>
+      <p>1833 St.Paul Street<br></p>
+      <p>St.Catherines, ON, L2R 3B5</p>
+    </div>
+
+    <hr class="hr2">
+
+
+    <!-- Table Starts -->
+    <table>
+      <tr class="heading">
+        <td> Item </td>
+        <td> Unit Cost </td>
+        <td> Quantity </td>
+        <td> Price &nbsp</td>
+      </tr>
+
+      <tr class="item">
+        <td><input value="MacBook Pro" /></td>
+        <td>$ <input type="number" value="1600" /></td>
+        <td><input type="number" value="1" /></td>
+        <td>$1,600.00</td>
+      </tr>
+
+      <tr class="item">
+        <td><input value="Key Fob" /></td>
+        <td>$ <input type="number" value="40" /></td>
+        <td><input type="number" value="1" /></td>
+        <td>$40.00</td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <button class="btn">Add Item</button>
+        </td>
+      </tr>
+
+      <!-- Subtotal amount  -->
+      <tr class="total">
+        <td colspan="3">
+          <p class="p2">Subtotal:</p>
+        </td>
+        <td>$1640.00</td>
+      </tr>
+
+      <!-- Tax % -->
+      <tr>
+        <td colspan="3">
+          <p class="p2">Tax(HST):</p>
+        </td>
+        <td class="p2">13%</td>
+      </tr>
+
+      <!-- Grandtotal amount -->
+      <tr class="grandtotal">
+        <td colspan="3">
+          <p class="p2">Grandtotal:</p>
+        </td>
+        <td>$1853.20</td>
+      </tr>
+
+    </table>
+
+    <div class="due-date">
+      <p class="boldme">Please pay your invoice within 30 days of receiving it</p>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
