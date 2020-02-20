@@ -1,5 +1,6 @@
 # Invoice System Project
-A Invoice System project that was built with jQuery
+A Invoice System project that was built with jQuery. [View the app](https://jquery-invoice-project.herokuapp.com/)
+
 
 ## Project Description
 An invoice system application that takes the user inputs and make calculations to display back the total results.
@@ -12,5 +13,4 @@ An invoice system application that takes the user inputs and make calculations t
 
 * **Allan Blackett** - *Initial work* - [AllanBlackett.com](https://Allanblackett.com)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
